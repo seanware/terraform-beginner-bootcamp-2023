@@ -4,6 +4,7 @@
 - [Git](#install-the-git-log-graph-extension)
 - [Terraform CLI](#fixed-terraform-cli-installation)
 - [Environment Variables](#terraform-env-variables)
+- [AWS CLI Refactor](#aws-cli-refactor)
 
 ## Semantic Versioning :mage:
 
@@ -35,3 +36,8 @@ Further, the terraform cli installation was automated using a [bash script](./bi
 
 Environment variables were added to the terrafrom script and stored in the gitpod workspace for longterm usage
 [Gitpod env Documentation](https://www.gitpod.io/docs/configure/projects/environment-variables#ways-of-setting-user-specific-environment-variables)
+
+## AWS CLI refactor
+
+The access keys for the aws cli were created using the aws management console an stored as environment variables and loaded into gitpod.
+[AWS env variables](https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-envvars.html)
