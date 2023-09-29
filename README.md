@@ -3,6 +3,7 @@
 - [Semantic Versioning](#semantic-versioning-mage)
 - [Git](#install-the-git-log-graph-extension)
 - [Terraform CLI](#fixed-terraform-cli-installation)
+- [Environment Variables](#terraform-env-variables)
 
 ## Semantic Versioning :mage:
 
@@ -29,3 +30,8 @@ The terraform cli installation commands were out of date and need to update with
 
 Further, the terraform cli installation was automated using a [bash script](./bin/install_terraform_cli) located at /bin/install_terraform_cli and modification were made to the [gitpod.yml](/.gitpod.yml) file so a script could be used.
 [Gitpod Documentation](https://www.gitpod.io/docs/configure/workspaces/tasks#prebuild-and-new-workspaces)
+
+## Terraform env variables
+
+Environment variables were added to the terrafrom script and stored in the gitpod workspace for longterm usage
+[Gitpod env Documentation](https://www.gitpod.io/docs/configure/projects/environment-variables#ways-of-setting-user-specific-environment-variables)
