@@ -16,5 +16,5 @@ Additional labels for pre-release and build metadata are available as extensions
 ## Install the git-log graph extension
 
 To better visulize the git workflow I have installed the free git-log graph tool
-[git-log-graph](https://github.com/phil294/git-log--graph#readme)
+[git_log_graph](https://github.com/phil294/git-log--graph#readme)
 
