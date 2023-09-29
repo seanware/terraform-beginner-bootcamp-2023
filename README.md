@@ -41,3 +41,9 @@ Environment variables were added to the terrafrom script and stored in the gitpo
 
 The access keys for the aws cli were created using the aws management console an stored as environment variables and loaded into gitpod.
 [AWS env variables](https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-envvars.html)
+
+## Implement the terraform random provider
+
+The terraform random provider was implemeted to determine if the basic commands were completely functional.  The link to the provier documentation is located here: [Random provider](https://registry.terraform.io/providers/hashicorp/random/latest/docs)
+
+The terraform.lock.hcl file should be included in the repository as it is unique to each terraform plan. [Terraform lock file](https://developer.hashicorp.com/terraform/language/files/dependency-lock#lock-file-location)
