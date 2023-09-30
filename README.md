@@ -7,6 +7,7 @@
 - [AWS CLI Refactor](#aws-cli-refactor)
 - [Terraform Random Provier](#implement-the-terraform-random-provider)
 - [Install AWS provider](#tested-terraform-with-aws)
+- [Terraform Cloud](#implement-terraform-cloud)
 
 ## Semantic Versioning :mage:
 
@@ -53,3 +54,10 @@ The terraform.lock.hcl file should be included in the repository as it is unique
 ## Tested Terraform with AWS
 
 The aws provider was installed from the terraform resgistry [AWS provider link](https://registry.terraform.io/providers/hashicorp/aws/latest/docs) with the provider a S3 bucket was created and destroyed using terraform plan, apply and destory.  The link the the aws S3 resoure documentation is here: [S3 resource](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/s3_bucket)
+
+## Implement Terraform Cloud
+
+Terraform cloud is used to store the state of a terraform configuration in a central place much like dockerhub. To accomplish the feat an organization was created on the terraform cloud platform.  Within this organization a project and workspace were created to handle the state from Terratown.  
+
+To use the CLI to access the cloud, an API key was created and due to issues with the Gitpod cloud user interface, authentication was done using a bash script.
+generate_tfrc_credential.  This script will be run on the startup of the cloud workspace.  
