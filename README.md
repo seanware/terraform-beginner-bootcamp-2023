@@ -61,3 +61,7 @@ Terraform cloud is used to store the state of a terraform configuration in a cen
 
 To use the CLI to access the cloud, an API key was created and due to issues with the Gitpod cloud user interface, authentication was done using a bash script.
 generate_tfrc_credential.  This script will be run on the startup of the cloud workspace.  
+
+## Alias terraform
+
+Terrraform alias was created with a script and modification to the gitpod.yml
