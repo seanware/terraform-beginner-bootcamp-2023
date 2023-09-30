@@ -6,6 +6,7 @@
 - [Environment Variables](#terraform-env-variables)
 - [AWS CLI Refactor](#aws-cli-refactor)
 - [Terraform Random Provier](#implement-the-terraform-random-provider)
+- [Install AWS provider](#tested-terraform-with-aws)
 
 ## Semantic Versioning :mage:
 
